@@ -1,0 +1,137 @@
+#logo {
+  width: 120px;
+  height: 60px;
+}
+
+.showcase {
+  background-image: url(./media/ba1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 104.2vh;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.showcase .shadow {
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: 100%;
+}
+
+.showcase .container-flex {
+  width: 80%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.showcase .content {
+  width: 50%;
+  margin-bottom: 18vh;
+  text-align: right;
+}
+
+.showcase .buttonarea {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.showcase .btn {
+  padding: 0.5rem 1rem;
+  margin: 0.5rem;
+  border-radius: 5px;
+}
+
+.btn-success {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: #198754;
+  --bs-btn-border-color: #198754;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: rgba(31, 233, 0, 0.995);
+  --bs-btn-hover-border-color: #198754;
+  --bs-btn-focus-shadow-rgb: 60, 153, 110;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #023100;
+  --bs-btn-active-border-color: #025100;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: #198754;
+  --bs-btn-disabled-border-color: #198754;
+}
+
+#container {
+  margin-bottom: 35px;
+}
+
+#honululu {
+  border-radius: 0rem;
+  height: 100%;
+}
+
+#textoh {
+  background-color: rgb(65, 65, 55);
+}
+
+.row {
+  margin-bottom: 20px;
+}
+
+.underline {
+  text-decoration: underline dotted;
+}
+
+.formulario {
+  width: 60vw;
+  margin: 0 auto;
+}
+
+.btn-submit {
+  width: 100%;
+  background-color: #96c93e;
+  color: white;
+  border-color: white;
+  border-radius: 0.4em;
+  height: 45px;
+  margin-bottom: 20px;
+}
+
+.bg-primary {
+  background-image: linear-gradient(to right, #004d7a, #008793);
+}
+
+/* css de javascript*/
+#botonborrar {
+  width: 100%;
+}
+#botonres {
+  width: 100%;
+}
+#total{
+  background-color: #c6eef1;
+  border-radius: 0.4em;
+  height: 45px;
+  margin-bottom: 6px; 
+}
+#botonborrar{
+  background-color: #96c93e;
+  border-color: white;
+}
+#botonres{
+  background-color: #96c93e;
+  border-color: white;
+}
+#uno{
+  width: 270px;
+}
+#dos{
+  width:270px;
+  padding-right: 0rem;
+  padding-left: 0rem;
+  margin-bottom: 10px;
+}
+#tres{
+  width:270px ;
+}
